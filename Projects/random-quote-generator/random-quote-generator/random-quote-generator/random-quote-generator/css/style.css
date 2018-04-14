@@ -1,0 +1,13 @@
+
+body{background:black;}
+#DivMain{
+   border-style:solid;
+   border-color:White;
+   width:40%;
+   heigth:40px;
+   color:White;  
+}
+
+#Title{
+   color:white
+}

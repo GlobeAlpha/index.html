@@ -1,0 +1,254 @@
+
+*
+{
+  padding:0 ;
+  margin: 0;
+
+}
+html
+{
+  height: 100vh;
+  
+}
+
+body
+{  
+  font-family:'Aharoni';
+  
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+font-size:12px; 
+width: 100vw;
+
+  
+}
+
+#About
+{
+color:#ff3300;   
+
+}
+
+#about
+{
+ font-size:20px;
+ color:black;
+
+}
+
+#Portfolio 
+{
+ font-size:15px;
+ padding: 10px;
+ width: 100%;
+ }
+ 
+td
+{
+  padding: 10px;
+}
+
+#portfolio
+{
+ color:#ff3300;
+ 
+}
+
+.title
+{
+ color: #ff3300;
+ font-size:30px;
+}
+
+@media all and ( min-width : 320px ){
+#Background
+{
+
+}
+}
+
+.main
+{
+font-size:25px;
+
+color:#ff3300;
+}
+
+#me
+{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  border-style:solid;
+  border-color:black;
+}
+
+.fa
+{
+  padding: 14px;
+  font-size:14px;
+  border-radius: 50%;
+  border-color:white;
+  border: 5px; 
+  text-align:left;
+  text-decoration: none;
+  margin: 10px 2px; 
+}
+
+.fa-facebook
+{
+  background: #3B5998;
+  
+  color: white;
+}
+
+.fa-twitter
+{
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin
+{ 
+  background: #007bb5;
+  color: white;
+}
+
+.fa-free-code-camp
+{
+  background: green;
+  color:white;
+} 
+
+.fa-github
+{
+  background-color: black;
+  color: white;
+}
+
+.button
+{
+ border-radius: 14px;
+ 
+ border:solid 2px;
+ padding: 8px;
+ margin:7px ;
+ background: inherit;
+ border-color: white;
+ text-decoration: none;
+ /* color:yellow; */
+}
+
+a
+{
+ text-align:center;
+ color: black;
+ text-decoration:none;
+}
+/*#Hirebtn
+{
+  border-radius: 14px;
+  border:solid 2px;
+  padding: 8px;
+  margin:7px ;
+  background: inherit;
+  border-color: red;
+}*/
+
+.Headers
+{
+  color: red;
+}
+.ImgContainer {
+    position: relative;
+    
+}
+#Previous {
+    left: 340px;
+}
+#Next {
+    right: 340px;
+}
+.ImgContainer:not(:first-child) {
+    display: none;
+}
+
+.Navbtn {
+    font-size: 23px;
+    position: absolute;
+    top: 310px;
+}
+
+img.thumb {
+    width: 620px;
+    height: 400px;
+    border: 3px solid transparent;
+    /*border-top: 3px solid purple;
+    border-left: 3px solid purple;
+    border-bottom: 3px solid purple;
+    border-right: 3px solid purple;*/
+    background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
+    background: -webkit-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
+    background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
+    align: center;
+}
+#Dialogbox
+{
+    color:black;
+}
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+    .modalDialog:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(purple, yellow);
+        background: -webkit-linear-gradient(purple, yellow);
+        background: -o-linear-gradient(purple, yellow);
+        color:black;
+
+    }
+
+
+
+/* nav
+{ 
+  background-color:Black;
+  padding: 20px 20px ;
+  text-align:center;
+  color: orange;
+  width: auto;
+  background-size: cover;
+  
+}
+
+ nav a
+{
+  text-decoration:none;
+  border:none;
+  color:white;
+} */

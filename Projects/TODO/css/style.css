@@ -1,0 +1,27 @@
+#Checking ol
+{
+    /* display: inline-block; */
+    float: left;
+}
+
+#Checking label
+{
+    float: left;
+    /* text-decoration: underline; */
+    
+}
+
+
+input[type=checkbox]:checked + label
+{
+    text-decoration: line-through;
+}
+
+
+#main
+{
+
+    background: url('../images/TODO.jpg') fixed;
+background-size: cover;
+
+}

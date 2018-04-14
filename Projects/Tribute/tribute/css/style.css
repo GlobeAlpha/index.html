@@ -1,0 +1,22 @@
+body{
+   background:url(https://i.ytimg.com/vi/5x6gaTBGTKo/maxresdefault.jpg) fixed;  
+}
+
+a{
+   color:Black;
+}
+a:link{
+   text-decoration:none; }
+#img{
+   height:340px; 
+   width:390px;
+   border:10px;
+   border-style:double;
+}
+#Time{
+   font-size:20px;
+   color:Red;}
+#Link{
+   background:yellow;
+   text-color:white;
+}

@@ -1,0 +1,7 @@
+#Ignore images
+images /blue-27022172_640.jpg
+images/coconut-designs.jpg
+images/coconut-designs1.jpg
+
+#Ignore Visual folder
+.vs/

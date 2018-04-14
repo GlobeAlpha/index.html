@@ -1,0 +1,20 @@
+body{
+background:url(http://www.denverdataman.com/sites/default/files/clouds.jpg)  ;
+background-size:cover;  
+background-repeat:no-repeat;
+background-attachment:fixed
+
+}
+#Icon{
+   repeat:no-repeat;
+   
+}
+
+span #Icon{
+ 
+  height:45px;
+  width:45px; 
+}
+
+
+
