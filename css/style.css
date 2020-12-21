@@ -25,6 +25,40 @@ width: 100vw;
   
 }
 
+#Background 
+{
+  background-color:beige;
+  padding: 11px;
+}
+
+.Logo
+{
+    right: -14px;
+    top: 7px;
+    position: relative;
+    width:75px;
+    height:55px;
+}
+
+#Work_Link
+{
+  float:right;
+}
+
+nav
+{
+  float: right;
+    left: -13px;
+    position: relative;
+}
+
+.Socials
+{
+    float: right;
+    left: -13px;
+    position: relative;
+}
+
 #About
 {
 color:#ff3300;   
@@ -38,12 +72,24 @@ color:#ff3300;
 
 }
 
-#Portfolio 
+
+.Landing_Description
+{ 
+  position: relative; 
+  border: beige solid 1px;
+  color:orange;
+  padding: 30px;
+  width: 364px;
+  top: 174px;
+  left: 350px;
+}
+
+/* #Portfolio 
 {
  font-size:15px;
  padding: 10px;
  width: 100%;
- }
+ } */
  
 td
 {
@@ -162,6 +208,28 @@ a
   color: red;
 }
 
+.Project_Type
+{
+  position: relative;
+  top: 100px;
+}
+
+.Project_Title
+{
+  background-color: beige;
+  width: 300px;
+  position: relative;
+  left: 409px;
+  top: 10px;
+}
+
+
+.Tech_Types
+{
+  position: relative;
+  top: 100px;
+}
+
 .ImgContainer 
 {
     position: relative;     
@@ -179,10 +247,7 @@ a
    
 }
 
-.Project_Title
-{
-  background-color: #c5d32c;;
-}
+
  .Box
 {
   display: none;
@@ -229,7 +294,7 @@ img.thumb {
     background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
     background: -webkit-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
     background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
-    align: center;
+    /* align: center; */
 }
 #Dialogbox
 {

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width,height=device-height user-scalable=yes, initial-scale=1, minimum-scale=1.0">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/Work.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+ 
+
+<body style="background-image: url(./images/bg.jpeg)" > <!--Wallhaven-26899.jpg-->
+    <div class="main">
+        <div id="Background">
+
+            <a href = "index.html"> <img class = "Logo" src="./images/MaciekLogo.svg"></a>
+            
+            <nav>
+                <button id="Dialogbox" ><a href="#openModal"><i class = "fa fa-user"></i></button>
+                <a  id = "Contact" href="Contact.html"><i class = " fa fa-phone"></i></a>
+                <a  id ="Work_Link" href="Work.html"><i class = "fa fa-briefcase"></i></a>
+               
+                 
+                
+            </nav>
+
+            <div style="text-align:left"> <!--<button id="Hirebtn">Avaiable for Hire</button>--></div>
+           
+            <!--<button class="Headers"><a href="#">Blog</a></button>-->
+
+
+            
+
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <img id="me" src="images/Maciek.jpg" />
+                    <h2><b>About me</b></h2>
+                    <p>Welcome Welcome this Maciek here,a Front End Developer.</p>
+                    <p>I am proficient in HTML,CSS and JS including jQuery for example Local Weather project.</p>
+                    <p>You are welcome to have look around ;) </p>
+                   
+                </div>
+            </div>
+
+
+           
+       </div>
+
+
+        
+       <label class ="Project_Type">  Commercial <input type ="radio" name = "Project_Type"> </label>
+       <label class ="Project_Type"> Personal <input type ="radio" name = "Project_Type"> </label>
+       <select class = "Tech_Types">
+           <option>Html/Css </option>
+           <option>Javascript</option>
+           <option>React</option>
+       </select>
+
+        <h3 id="portfolio"> PROJECTS</h3>
+
+        <div id="Work" class="container-fluid" style="text-align:left">
+
+            <div class="ImgContainer" id="img_1" style="text-align:center">
+
+               
+                    <h3  class = "Project_Title">Tribute</h3>
+                
+                <img src="images/1.png" class="thumb" />
+
+               
+                <p class= "Box">Tribute to Commander Shepard the main character of Mass effect trilogy. </p>
+                
+                <!-- <button class="button"> <a href="Projects/Tribute/index.html" target="_blank"> View Project</a></button>-->
+                
+            </div>
+
+
+            
+            <div class="ImgContainer" id="img_2" style="text-align:center">
+                <h3 style="color:red">Quotes</h3>
+                <img src="images/2.png" class="thumb" />
+                <p class="Box">Generates Quotes from a array of quotes which then can be shared on Twitter. </p>
+            </div>
+
+
+            
+            <div class="ImgContainer Personal" id="img_3" style="text-align:center">
+                <h3 style="color:red">Wikipedia Viewer</h3>
+                <img src="images/3.png" class="thumb" />
+                <p class="Box">Allows to search Wikipedia and displaying all results which then directs you to Wikipedia. </p>
+            </div>
+
+            <div class="ImgContainer Personal" id="img_4" style="text-align:center">
+                <h3 style="color:red">JS Calculator </h3>
+                <img src="images/4.png" class="thumb" />
+                <p class="Box">Allows user to calculate and get sums including being able chain operations. </p>
+            </div>
+
+            <div class="ImgContainer Personal" id="img_5" style="text-align:center">
+                <h3 style="color:red">Pomodoro Clock </h3>
+                <img src="images/5.png" class="thumb" />
+                <p class="Box">Allows user to set a timer for work/study and set a timer for a break whcih is automatically triggered after session finshes.</p>
+            </div>
+
+            <div class="ImgContainer Personal" id="img_6" style="text-align:center">
+                <h3 style="color:red">Tic Tac Toe </h3>
+                <img src="images/6.png" class="thumb" />
+                <p class="Box">Classic Game of Tic Tac Toes where user picks his character O or X.</p>
+
+            </div>
+
+            <div class="ImgContainer Personal" id="img_7" style="text-align:center">
+                <h3 style="color:red">TODO </h3>
+                <img src="images/7.png" class="thumb" />
+                <p class="Box">A personal rebrand of a classic web dev project which allows you to create... you never guess ... a ToDo list!!!</p>
+
+            </div>
+
+
+            <div class="ImgContainer Personal" id="img_8" style="text-align:center">
+                <h3 style="color:red">Twitch TV </h3>
+                <img src="images/8.png" class="thumb" />
+                <p class="Box">Pulls the user names of peeps following FreeCodeCamp and what they are streaming.</p>
+            </div>
+
+         
+
+
+    </div>
+
+
+
+            <!-- <div class="Navbtn" id="Previous">&#10094;</div>
+            <div class="Navbtn" id="Next">&#10095;</div> -->
+           
+        </div>
+
+       
+
+      
+
+       <footer></footer>
+
+
+        <script src="C:\Users\macie\OneDrive\Documents\Projects Web\portfolio\portfolio\js\jQuery.js"defer></script>
+        <script src="js/Slideshow.js"  defer></script>
+        <!--https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js-->
+    </div>
+   
+
+</body>
+</html>
