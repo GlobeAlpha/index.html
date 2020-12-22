@@ -30,26 +30,31 @@ $(document).ready(function(){
    $("#WeatherType").html("   Weather Type : " + WeatherType);
    $("#WindSpeed").html("Windspeed "+WindSpeed+" km/h"); });
 
-$.getJSON(API,function(data){
-     var Kelvin = data.main.temp;
-     fTemp = ((Kelvin)*(9/5)-459.67).toFixed(2);
-     cTemp = (Kelvin-273).toFixed(1);
+         $.getJSON(API, function (data)
+         {
+               var Kelvin = data.main.temp;
+               fTemp = ((Kelvin)*(9/5)-459.67).toFixed(2);
+               cTemp = (Kelvin-273).toFixed(1);
 
-$("#Temp").html( "Temp : "+fTemp+" \xB0 F");
+            $("#Temp").html( "Temp : "+fTemp+" \xB0 F");
 
-$("#Temp").click(function(){ //Toggles between Temp Units
-   if(TempSwap===false){
+            $("#Temp").click(function ()
+            { 
+               if (TempSwap === false)
+               {
 
-$("#Temp").html( "Temp : "+cTemp+" \xB0 C");
-      TempSwap=true;}
+            $("#Temp").html( "Temp : "+cTemp+" \xB0 C");
+                  TempSwap = true;
+                  }
 
-      else{
+               else
+               {
 
-       $("#Temp").html("Temp : "+fTemp+" \xB0 F");
-         TempSwap=false;
-      }
+                  $("#Temp").html("Temp : "+fTemp+" \xB0 F");
+                     TempSwap = false;
+                  }
    });
-      WindSpeed=3.6*(WindSpeed);
+      WindSpeed = 3.6 * (WindSpeed);
 
 });
 
