@@ -19,7 +19,7 @@ $(document).ready(function ()
     };
 
 
-   var API = "http://api.openweathermap.org/data/2.5/weather?lat=52.522794999999995&lon=-1.8436450000000002&appid=37d8911cc47bc893ab2f518f05bacfcc";
+   var API = "https://api.openweathermap.org/data/2.5/weather?lat=52.522794999999995&lon=-1.8436450000000002&appid=37d8911cc47bc893ab2f518f05bacfcc";
    $.getJSON(API, function (data)
    {
          $("#GetWeather").click(function ()
