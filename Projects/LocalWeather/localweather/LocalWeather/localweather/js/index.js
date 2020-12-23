@@ -30,7 +30,7 @@ $(document).ready(function ()
             
             // var MapTiles = 'https://api.mapbox.com/styles/v1/mbajda/ckj1thqqu0r7t19p30ui4b1vn.html?fresh=true&title=view&access_token=pk.eyJ1IjoibWJhamRhIiwiYSI6ImNrajF0ZTA2czJ5ajEydm1tcnZjYnhuczQifQ.wt5bVKziFjaIRXlOREJH7Q'
             var Local_Weather_Map = L.map('Local_Weather_Map').setView([52.522794999999995,-1.843645000000000], 13)
-            Local_Weather_Map.setView([0, 0], 0,
+            Local_Weather_Map.setView([52.522794999999995,-1.843645000000000], 0,
                {
                   reset:true
                });
