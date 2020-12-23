@@ -16,5 +16,11 @@ span #Icon{
   width:45px; 
 }
 
+#Local_Weather_Map
+{
+  height: 200px;
+  width: 200px;
+}
+
 
 
