@@ -32,7 +32,7 @@ $(document).ready(function ()
             var Local_Weather_Map = L.map('Local_Weather_Map').setView([52.522794999999995,-1.843645000000000], 13)
             Local_Weather_Map.setView([0, 0], 0,
                {
-                  reset:true;
+                  reset:true
                });
             
             // L.mapbox.config.FORCE_HTTPS = true;
