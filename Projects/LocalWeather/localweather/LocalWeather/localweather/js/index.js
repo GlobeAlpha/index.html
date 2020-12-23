@@ -35,7 +35,7 @@ $(document).ready(function ()
             //       reset:true
             //    });
             
-            // L.mapbox.config.FORCE_HTTPS = true;
+            L.FORCE_HTTPS = true;
                   L.tileLayer('https://api.mapbox.com/styles/v1/mbajda/ckj1thqqu0r7t19p30ui4b1vn/wmts?access_token=pk.eyJ1IjoibWJhamRhIiwiYSI6ImNrajF0ZTA2czJ5ajEydm1tcnZjYnhuczQifQ.wt5bVKziFjaIRXlOREJH7Q', {
                      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                      maxZoom: 13,
