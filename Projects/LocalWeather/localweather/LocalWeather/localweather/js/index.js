@@ -45,7 +45,7 @@ $(document).ready(function ()
       var Icon = data.weather[0].icon;
       var WindSpeed = data.wind.speed;
       var city = data.name;
-      var IconImg="http://openweathermap.org/img/w/"+Icon+".png";
+      var IconImg="https://openweathermap.org/img/w/"+Icon+".png";
 
    $("#Icon").prepend("<img src= "+IconImg+" >");
    $("#city").html("City: "+city);
