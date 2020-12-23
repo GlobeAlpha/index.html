@@ -1,11 +1,13 @@
-$(document).ready(function(){
+$(document).ready(function ()
+{
    var long;
    var lat;
    var fTemp;
    var cTemp;
    var TempSwap;
 
-    if (navigator.geolocation) {      // Current Position
+   if (navigator.geolocation)
+   {      // Current Position
      navigator.geolocation.getCurrentPosition(function(position) {
      long = position.coords.longitude;
      lat = position.coords.latitude;
@@ -15,10 +17,12 @@ $(document).ready(function(){
     };
 
 
-   var API="http://api.openweathermap.org/data/2.5/weather?lat=52.522794999999995&lon=-1.8436450000000002&appid=37d8911cc47bc893ab2f518f05bacfcc";
-      $.getJSON(API,function(data){
-      $("#GetWeather").click(function(){
-      //GetWeather Button displays city,Temp,Weather Type,Weather Icon and Windspeed (from m/s to km/h)
+   var API = "http://api.openweathermap.org/data/2.5/weather?lat=52.522794999999995&lon=-1.8436450000000002&appid=37d8911cc47bc893ab2f518f05bacfcc";
+   $.getJSON(API, function (data)
+   {
+         $("#GetWeather").click(function ()
+         {
+      
       var WeatherType = data.weather[0].description;
       var Icon = data.weather[0].icon;
       var WindSpeed = data.wind.speed;
@@ -42,17 +46,15 @@ $(document).ready(function(){
             { 
                if (TempSwap === false)
                {
-
-            $("#Temp").html( "Temp : "+cTemp+" \xB0 C");
+                  $("#Temp").html( "Temp : "+cTemp+" \xB0 C");
                   TempSwap = true;
-                  }
+               }
 
                else
                {
-
-                  $("#Temp").html("Temp : "+fTemp+" \xB0 F");
+                     $("#Temp").html("Temp : "+fTemp+" \xB0 F");
                      TempSwap = false;
-                  }
+               }
    });
       WindSpeed = 3.6 * (WindSpeed);
 
