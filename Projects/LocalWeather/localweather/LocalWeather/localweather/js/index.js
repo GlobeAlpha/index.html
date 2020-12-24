@@ -36,7 +36,7 @@ $(document).ready(function ()
             //    });
             
             L.FORCE_HTTPS = true;
-                  L.tileLayer('https://api.mapbox.com/mapbox/satellite-v9?access_token=pk.eyJ1IjoibWJhamRhIiwiYSI6ImNrajF0ZTA2czJ5ajEydm1tcnZjYnhuczQifQ.wt5bVKziFjaIRXlOREJH7Q', {
+                  L.tileLayer('https://api.mapbox.com/mapbox/satellite?access_token=pk.eyJ1IjoibWJhamRhIiwiYSI6ImNrajF0ZTA2czJ5ajEydm1tcnZjYnhuczQifQ.wt5bVKziFjaIRXlOREJH7Q', {
                      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                      maxZoom: 13,
                      id: 'mapbox.satellite',
