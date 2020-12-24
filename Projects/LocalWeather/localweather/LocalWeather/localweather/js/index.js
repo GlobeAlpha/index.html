@@ -39,7 +39,7 @@ $(document).ready(function ()
                   L.tileLayer('https://api.mapbox.com/styles/v1/mbajda/ckj23dfyi10oh19p3n56gkkos.html?fresh=true&title=view&access_token=pk.eyJ1IjoibWJhamRhIiwiYSI6ImNrajF0ZTA2czJ5ajEydm1tcnZjYnhuczQifQ.wt5bVKziFjaIRXlOREJH7Q#12/48.8665/2.3176', {
                      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                      maxZoom: 13,
-                     id: 'mapbox.satellite',
+                     id: 'mapbox.mbajda',
                      tileSize: 512,
                      zoomOffset: -1,
                      accessToken: 'pk.eyJ1IjoibWJhamRhIiwiYSI6ImNrajF0ZTA2czJ5ajEydm1tcnZjYnhuczQifQ.wt5bVKziFjaIRXlOREJH7Q'
