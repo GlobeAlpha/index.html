@@ -71,5 +71,7 @@ TechType = () =>
     {
         console.log(`${Vanilla_Option} option has been selected`)
         }
+
+ /// write logic that switches to   projects based on tech type 
 }
 
