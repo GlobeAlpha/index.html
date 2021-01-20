@@ -101,6 +101,19 @@ color:#ff3300;
  
 }
 
+
+
+.Story_Headers
+{
+font-size : 20px;
+font-weight: bold;
+}
+
+.About_Section
+{
+  font-size:18px;
+}
+
 .title
 {
  color: #ff3300;
@@ -178,7 +191,8 @@ color:#ff3300;
 .button
 {
  border-radius: 14px;
- 
+ position: relative;
+ right: 309px; 
  border:solid 2px;
  padding: 8px;
  margin:7px ;
@@ -234,10 +248,10 @@ a
   left:61px;
 }
 
-.ImgContainer 
+/* .ImgContainer 
 {
     position: relative;     
-}
+} */
 
 
 
@@ -277,9 +291,11 @@ a
 #Next {
     right: 340px;
 }
-.ImgContainer:not(:first-child) {
+
+/* .ImgContainer:not(:first-child) 
+{
     display: none;
-}
+} */
 
 .Navbtn {
     font-size: 23px;

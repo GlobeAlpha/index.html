@@ -4,6 +4,69 @@
     top:100px;
 }
 
+#tech_tag 
+{
+    background: navajowhite;
+    position: relative;
+    border-radius: 200px;
+    left: 415px;
+    top: 75px;
+    z-index: 3;
+    font-size: 10px;
+    width: 24px;
+}
+
+
+
+#Tribute
+{
+  position: relative;
+  right:321px;
+  width: 100%;
+}
+
+#Random_Quote_Generator
+{
+    position: relative;
+    left: 437px;
+    bottom: 257px;
+}
+
+#Wikipedia_Viewer
+{
+    position: relative;
+    left: 796px;
+    bottom: 513px;
+}
+
+#JS_Calculator
+{
+    position: relative;
+    bottom: 468px;
+    left: 79px;
+}
+
+#Pomodoro_Clock
+{
+    position: relative;
+    bottom: 727px;
+    left: 424px;
+}
+
+#Tic_Tac_Toe
+{
+    position: relative;
+    bottom: 984px;
+    left: 796px;
+}
+
+#ToDO
+
+{
+    position: relative;
+    bottom: 960px;
+    left: 73px;
+}
 /* 
 TODO:
 
