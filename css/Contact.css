@@ -1,6 +1,24 @@
 
+.Contact
+{
+  position: relative;
+  top: 150px;
+  left: 300px;
+  background: beige;
+  width: 550px;
+  height:300px;
+
+}
+
+.Text
+{
+ margin:23px;
+}
+
+/* 
 /* Contact Icons */
-.fa
+
+/*.fa
 {
   padding: 14px;
   font-size:14px;
@@ -42,4 +60,4 @@
   background-color: black;
   color: white;
 }
-
+ */
