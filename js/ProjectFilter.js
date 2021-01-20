@@ -14,8 +14,8 @@ var ProjectPersonal = document.getElementById('Personal');
 
 //         if (ProjectCommercial.value = "Commercial")
 //         {
-//             var Personal = document.getElementById("PersonalCunt")
-//             var Commercial =document.getElementById("CommercialCunt")
+//             var Personal = document.getElementById("Personal")
+//             var Commercial =document.getElementById("Commercial")
            
 //             Personal.style.display = "none"
 //             Commercial.style.display = "block"
@@ -27,8 +27,8 @@ var ProjectPersonal = document.getElementById('Personal');
 //     {
 //        if (ProjectPersonal.value = "Personal")
 //        {
-//         var Personal = document.getElementById("CommercialCunt")
-//         var Commercial =document.getElementById("PersonalCunt")
+//         var Personal = document.getElementById("Commercial")
+//         var Commercial =document.getElementById("Personal")
        
 //         Personal.style.display = "none"
 //         Commercial.style.display = "block"
