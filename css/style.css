@@ -127,7 +127,7 @@ font-weight: bold;
 }
 } */
 
-.main
+main
 {
 font-size:25px;
 
@@ -142,7 +142,6 @@ color:#ff3300;
   border-style:solid;
   border-color:black;
 }
-
 
 /* Contact Icons */
 .fa
@@ -190,12 +189,12 @@ color:#ff3300;
 
 .button
 {
- border-radius: 14px;
+  border-radius: 14px;
  position: relative;
  right: 309px; 
  border:solid 2px;
- padding: 8px;
- margin:7px ;
+ /* padding: 8px;
+ margin:7px ;  */
  background: inherit;
  border-color: white;
  text-decoration: none;
@@ -270,14 +269,17 @@ a
 {
   display: none;
   position: relative;
-  left: 6%;
+  left: 1%;
    right: 50%;
    bottom: 107px;
+   font-size:14px;
+  color: black;
 } 
 
 .ImgContainer:hover .thumb
 {
   opacity: 0.3;
+  
 }
 
 .ImgContainer:hover .Box 
@@ -285,10 +287,14 @@ a
   display: block;
 }
 
-#Previous {
+
+
+#Previous 
+{
     left: 340px;
 }
-#Next {
+#Next
+ {
     right: 340px;
 }
 
