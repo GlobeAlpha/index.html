@@ -1,5 +1,5 @@
 body{
-background:url(http://www.denverdataman.com/sites/default/files/clouds.jpg)  ;
+/* background:url(http://www.denverdataman.com/sites/default/files/clouds.jpg)  ; */
 background-size:cover;  
 background-repeat:no-repeat;
 background-attachment:fixed
@@ -14,6 +14,12 @@ span #Icon{
  
   height:45px;
   width:45px; 
+}
+
+#Local_Weather_Map
+{
+  height: 200px;
+  width: 200px;
 }
 
 

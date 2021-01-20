@@ -52,6 +52,7 @@ nav
     position: relative;
 }
 
+/* Contact */
 .Socials
 {
     float: right;
@@ -59,6 +60,7 @@ nav
     position: relative;
 }
 
+/* About Modal */
 #About
 {
 color:#ff3300;   
@@ -72,7 +74,7 @@ color:#ff3300;
 
 }
 
-
+/* Landing Site Desctiption */
 .Landing_Description
 { 
   position: relative; 
@@ -91,15 +93,24 @@ color:#ff3300;
  width: 100%;
  } */
  
-td
-{
-  padding: 10px;
-}
+
 
 #portfolio
 {
  color:#ff3300;
  
+}
+
+.Story_Headers
+{
+font-size : 20px;
+font-weight: bold;
+}
+
+.About_Section
+{
+  font-size:18px;
+  background-color: aquamarine;
 }
 
 .title
@@ -115,7 +126,7 @@ td
 }
 } */
 
-.main
+main
 {
 font-size:25px;
 
@@ -131,6 +142,7 @@ color:#ff3300;
   border-color:black;
 }
 
+/* Contact Icons */
 .fa
 {
   padding: 14px;
@@ -145,8 +157,7 @@ color:#ff3300;
 
 .fa-facebook
 {
-  background: #3B5998;
-  
+  background: #3B5998;  
   color: white;
 }
 
@@ -176,11 +187,12 @@ color:#ff3300;
 
 .button
 {
- border-radius: 14px;
- 
+  border-radius: 14px;
+ position: relative;
+ right: 309px; 
  border:solid 2px;
- padding: 8px;
- margin:7px ;
+ /* padding: 8px;
+ margin:7px ;  */
  background: inherit;
  border-color: white;
  text-decoration: none;
@@ -208,10 +220,12 @@ a
   color: red;
 }
 
+/* Projects- move to Work.css */
 .Project_Type
 {
   position: relative;
   top: 100px;
+  margin: 11px;
 }
 
 .Project_Title
@@ -228,12 +242,13 @@ a
 {
   position: relative;
   top: 100px;
+  left:61px;
 }
 
-.ImgContainer 
+/* .ImgContainer 
 {
     position: relative;     
-}
+} */
 
 
 
@@ -252,14 +267,17 @@ a
 {
   display: none;
   position: relative;
-  left: 6%;
+  left: 1%;
    right: 50%;
    bottom: 107px;
+   font-size:14px;
+  color: black;
 } 
 
 .ImgContainer:hover .thumb
 {
   opacity: 0.3;
+  
 }
 
 .ImgContainer:hover .Box 
@@ -267,15 +285,21 @@ a
   display: block;
 }
 
-#Previous {
+
+
+#Previous 
+{
     left: 340px;
 }
-#Next {
+#Next
+ {
     right: 340px;
 }
-.ImgContainer:not(:first-child) {
+
+/* .ImgContainer:not(:first-child) 
+{
     display: none;
-}
+} */
 
 .Navbtn {
     font-size: 23px;
@@ -296,11 +320,14 @@ img.thumb {
     background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
     /* align: center; */
 }
+
+/* Modal */
 #Dialogbox
 {
     color:black;
 }
-.modalDialog {
+.modalDialog 
+{
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     top: 0;

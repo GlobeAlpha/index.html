@@ -2,8 +2,10 @@ var CurrentImg = 1;
 var TotalImgs = 8;
 
 
-$(document).ready(function () {
-    $("#Previous").click(function () {
+$(document).ready(function ()
+{
+    $("#Previous").click(function ()
+    {
 
         $("#img_" + CurrentImg).fadeOut(1);
         console.log(CurrentImg);
@@ -17,7 +19,8 @@ $(document).ready(function () {
         console.log(CurrentImg);
     });
 
-    $("#Next").click(function () {
+    $("#Next").click(function ()
+    {
 
         $("#img_" + CurrentImg).stop().fadeOut(1);
         //increaseImg();
