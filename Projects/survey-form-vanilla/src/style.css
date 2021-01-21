@@ -1,0 +1,146 @@
+/*  
+TODO : Create responsive design
+TODO : Create Validation messages
+TODO : Create Options fof dropdown
+TODO : Disable the form button from submitting until all fields are filled in 
+*/
+
+#title
+{ 
+  text-align: center;
+}
+
+#description
+{
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+form
+{
+/*  display:block; */
+  background:hsl(271,65%,79%);
+  border-radius:20px;
+  width:650px;
+  padding-bottom:50px;
+  position:relative;
+  left:420px;
+}
+
+fieldset
+{
+  border:none;
+} 
+
+#name
+{
+/*   display: block; */
+  margin-bottom: 10px;
+  position: relative;
+/*   padding:1px; */
+/*   left:340px; */
+  width:auto;
+  padding-left:1px;
+  
+}
+
+#email
+{
+/*   display: block; */
+  margin-bottom:10px;
+}
+
+ #number
+{
+/*   display: block; */
+  margin-bottom:10px;
+/*   padding-left:20px; */
+/*   width:100px; */
+} 
+
+
+
+.Contact_Details
+{
+ 
+  position:relative;
+/*   margin: 15px; */
+  left:51px;
+  padding-bottom:3px;
+  top:30px;
+  
+}
+
+
+.Experience_Details
+{
+  display:inline-block;
+  position:relative;
+/*   margin:15px; */
+  font-size:16px;
+  left:51px;
+  padding-bottom:3px;
+  top:50px;
+}
+
+
+
+/* input
+{
+  display:inline-block;
+  
+} */
+
+/* input:invalid
+{
+  color:red;
+} */
+#name-label
+{
+  font-size:15px;
+  position:relative;
+   display:block;
+}
+
+#email
+{
+   font-size:15px;
+  position:relative;
+   display:block;
+}
+
+#number-label
+{
+  font-size:20px;
+   position:relative;
+   display:block;
+}
+
+p
+{
+  font-size:20px;
+}
+
+
+#submit
+{
+  position:relative;
+  left:100px;
+  top:50px;
+/*   bottom:10px; */
+  border-style:none;
+  border-radius:20px;
+  background-color :springgreen;
+  margin:10px;
+} 
+
+/* :focus
+{
+  border:greenyellow;
+} */
+
+textarea
+{
+  margin:10px;
+}
