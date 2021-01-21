@@ -46,6 +46,11 @@ $(document).ready(function ()
                   }).addTo(Local_Weather_Map);
 
 
+   var API="https://api.openweathermap.org/data/2.5/weather?lat=52.522794999999995&lon=-1.8436450000000002&appid=37d8911cc47bc893ab2f518f05bacfcc";
+      $.getJSON(API,function(data){
+      $("#GetWeather").click(function(){
+      //GetWeather Button displays city,Temp,Weather Type,Weather Icon and Windspeed (from m/s to km/h)
+
       var WeatherType = data.weather[0].description;
       var Icon = data.weather[0].icon;
       var WindSpeed = data.wind.speed;
