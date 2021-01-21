@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<head>
+    <link rel ="stylesheet" type = "text/css" href = "https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <html>
+      <!-- Add Shipping Icon       -->
+      <!--  Billing Container -->
+    <section class ="ShippingDetails">
+   
+   <!-- Billing Address -->
+       <h1 >Billing Address</h1>
+   <!--  full name -->
+       <br />
+    <label class ="fas fa-user-circle"> Full Name <input class = "Full_Name"/></label>
+   <!-- 	email -->
+       <br />
+    <label class ="fas fa-at"> Email <input class = "Shipping_Email"/></label>
+   <!-- 	address -->
+       <br />
+<label class="fa fa-address-book"> Address <input class  = "Shipping_Address"/></label>
+   <!-- 	city -->
+       <br />
+<label class="fa fa-city"> City <input class = "Shipping_City"/></label>
+   <!-- 	State  >  zip -->
+       <br />
+       <label> State <input class  = "Shipping_State"/></label>
+       <label> Zip <input class  = "Shipping_State"/></label>
+   <!--  Shipping Address same as Billing-->
+       <br />
+       <label> <input  type = "checkbox" class  = "Full_Name"/>Shipping Address same as Billing</label>
+    </section>
+   <!--  Payment- Details -->
+       <section class = "PaymentDetails">
+    <!--  Payment Title -->
+        <h1>Payment</h1>
+       <!-- Accepted Cards -->
+        <input  id = "Payment_Card" type = "radio" id ="Payment_Card" name ="Payment_Card"><label  for = "Payment_Card" class ="fab fa-cc-visa"> Visa </label>
+       <label class ="fab fa-cc-mastercard"> MasterCard <input  id = "Payment_Card" name="Payment_Card" type = "radio"></label>
+       <label class ="fab fa-cc-discover"> Discovery <input  id = "Payment_Card" type = "radio" name="Payment_Card"></label>
+       <label class ="fab fa-cc-amex">  American Express<input  id = "Payment_Card" type = "radio" name="Payment_Card"></label>
+   <!-- 	Name on the Card  -->
+          <br />
+    <label>  Name on the Card<input  class = "Cardholder_Name" type = "text"></label>
+   <!-- 	CCN(Credit Card Number) -->
+          <br />
+    <label> Card Number <input  class = "Cardholder_Name" type = "text"></label>
+   <!-- 	Exp Month -->
+          <br />
+   <label>  Expiration Month/Year<input  class = "Cardholder_Name" type = "text"></label>
+   <!-- 	CVV -->
+          <br />
+ <label>   CVV <input  class = "Cardholder_Name" type = "text"></label>
+      </article>
+
+   
+
+   <!--continue to check out button -->
+    <button class ="Checkout" disabled>Continue to checkout</button>
+   </html>
+      
+   </body>
