@@ -1,87 +1,137 @@
 #Work
 {
     position: relative;
-    top:100px;
+    top: 354px;
 }
 
-#tech_tag 
+/* .ImgContainer #tech_tag 
 {
-    background: navajowhite;
+    background: grey;
     position: relative;
     border-radius: 200px;
-    left: 415px;
-    top: 75px;
+    left: 0px;
+    top: 27px;
     z-index: 3;
     font-size: 10px;
-    width: 24px;
-}
+    
+    width: 40px;
+} */
+
 
 h3
 {
     font-size:20px;
+    display: inline;
 }
 
-#Tribute
+/* #Tribute
 {
   position: relative;
   right:321px;
   width: 100%;
-}
+} */
 
-#Random_Quote_Generator
+.LX 
 {
     position: relative;
-    left: 437px;
-    bottom: 257px;
+    right: 392px;
+    bottom: 857px;
+    width: 300px;
+    height: 200px;
 }
 
-#Wikipedia_Viewer
+.Twine
 {
     position: relative;
-    left: 796px;
-    bottom: 513px;
+    left: 3px;
+    bottom: 1105px;
+    width: 300px;
+    height: 200px;
 }
 
-#JS_Calculator
+.Payment_Form
 {
     position: relative;
-    bottom: 468px;
-    left: 79px;
+    left: 358px;
+    bottom: 221px;
+    width: 300px;
+    height: 200px;
 }
 
-#Pomodoro_Clock
+
+.Feedback_Form
 {
     position: relative;
-    bottom: 727px;
-    left: 424px;
+    right: 337px;
+    bottom: 376px;
+    width: 300px;
+    height: 200px;
 }
 
-#Tic_Tac_Toe
+.Neon_Light
 {
     position: relative;
-    bottom: 984px;
-    left: 796px;
+    left: 214px;
+    bottom: 88px;
+    width: 300px;
+    height: 200px;
 }
 
-#ToDO
+
+.Wikipedia_Viewer
+{
+    position: relative;
+    left: 783px;
+    bottom: 1301px;
+    width: 300px;
+    height: 200px;
+}
+
+
+.Random_Quote_Generator
+{
+    position: relative;
+    left: 78px;
+    bottom: 807px;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.JS_Calculator
+{
+    position: relative;
+    bottom: 1286px;
+    left: 782px;
+    width: 300px;
+    height: 200px;
+}
+
+.Pomodoro_Clock
+{
+    position: relative;
+    bottom: 1530px;
+    left: 428px;
+    width: 300px;
+    height: 200px;
+}
+
+.Tic_Tac_Toe
+{
+    position: relative;
+    bottom: 1544px;
+    left: 76px;
+    width: 300px;
+    height: 200px;
+}
+
+.ToDO
 
 {
     position: relative;
-    bottom: 960px;
-    left: 73px;
+    bottom: 1805px;
+    left: 425px;
+    width: 300px;
+    height: 200px;
 }
-/* 
-TODO:
-
-Add Commerical id rule  when radion button is unchecked
-Add Commerical id rule  when radion button is checked
-
-Add Personal id rule  when radion button is unchecked
-Add Personal id rule  when radion button is checked
-
-*/
-
-/*  When unchecked  hide personal projects  */
-
-
-
