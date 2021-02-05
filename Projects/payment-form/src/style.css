@@ -1,0 +1,35 @@
+input 
+{
+   display:block;
+   margin:15px;
+/*    margin-left:100px; */
+}
+
+input[type=radio],input[type=checkbox]
+{
+display:inline;
+}
+
+.ShippingDetails
+{
+    position: relative;
+    margin-bottom: 20px;
+   
+/*     margin:7px; */
+/*    display:inline-block; */
+    line-height: 27px;
+  line-height:22px;
+}
+
+.PaymentDetails
+{
+    position: relative;
+    left: 512px;
+    bottom: 555px;
+   line-height:22px;
+}
+
+h1
+{
+   font-size:10px;
+}

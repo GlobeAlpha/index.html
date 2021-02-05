@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form (Vanilla)</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<!-- Title -->
+<main>
+<header>
+<h1 id  = "title"> User Experience Feedback Form <h1>
+
+<!--  Description  -->
+  <p id = "description" tabindex="0"> Purpose of this form is give you opportunity to tell us about your user experienxe. </p>
+
+  </header>
+  
+  <!--  Form -->
+  <form id = "survey-form">
+  <section class = "Contact_Details">
+<!--   FEATURE Could hide the input until user clicks on label  then once users fills it lets user ok it and display the actual input  -->
+<!-- Name -->
+   <label for = "name" id = "name-label">*Name :</label>
+    <input id ="name"  type ="text" placeholder = "Your Name" required/> 
+   <br />
+<!-- Email -->
+ <label for="email" id = "email-label">*Email :</label>
+  <input  id = "email" type = "email" placeholder = "Email here" required/> 
+
+    <br />
+    <!-- Phone Number  -->
+   <label for ="number"  id = "number-label">  *Phone Number : </label>    
+    <input id = "number" type = "number"   id = "phone_number" placeholder = "Your Telephone Number" oninput = "PhoneNumber()" oninvalid ="You/'ve entered maxium amount of characters!" required/>
+    
+  </section>
+<!--  Purpose of visit-->
+<section class = "Experience_Details">    
+  <p>Purpose of your visit</p> 
+   <select id = "dropdown">
+      <!--  selecteed and hidden allow the dropwdwon to set placholder text       -->
+     
+     <option selected hidden> Purpose of your visit</option> <option>Option 1</option>
+     <option>Option 1</option>
+     <option>Option 2</option>
+     <option>Option 3</option>
+   </select>
+<!--  Rating of my experience -->
+   <fieldset  class = "Visit_rating">
+  <p>Rate the experience from 1-5</p>
+    <input  name = "Visit_rating" type = "radio" value ="1" >
+     <label  for ="Visit_rating">  1</label>
+     
+  
+    
+    <input name = "Visit_rating" type = "radio"  value = "2">
+     <label for ="Visit_rating" name =  "Visit-rating">  2</label>
+  
+     <input  name = "Visit_rating" type = "radio"  value = "3">
+     <label  for = "Visit_rating" name =  "Visit-rating">  3</label>
+  
+     <input name = "Visit_rating" type = "radio"  value = "4">
+     <label for ="Visit_rating" name =  "Visit-rating">  4</label>
+    
+     <input  name = "Visit_rating" type = "radio"  value ="5">
+     <label  for ="Visit_rating" name =  "Visit_rating">  5</label>
+  
+   <br />
+   <br />
+  </fieldset>
+<!--  Which parts of the website I liked -->
+
+  <p>Which part of the page did you enjoy the most </p>
+  <label for  ="Best_Page"> Home </label>
+  <input type ="checkbox" name ="Best_Page" value = "Home"> 
+  
+  <label for  ="Best_Page"> About </label>
+  <input type ="checkbox" name ="Best_Page" value = "About"> 
+  
+  <label for  ="Best_Page"> Contact</label>
+  <input type ="checkbox" name ="Worst_Page" value = "Contact"> 
+   
+   
+  
+<!--   Which parts of the website I disliked -->
+  
+   <p>Which part of the page did you found hard to understand the most </p>
+  <label for  ="Best_Page"> Home </label>
+  <input type ="checkbox" name ="Worst_Page" value = "Home"> 
+  
+  <label for  ="Best_Page"> About </label>
+  <input type ="checkbox" name ="Worst_Page" value = "About"> 
+  
+  <label for  ="Best_Page"> Contact</label>
+  <input type ="checkbox" name ="Worst_Page" value = "Contact"> 
+<!--   Which parts of the Website I feel need improving  -->
+     
+     
+   
+ 
+  <p>Which parts of the website do you think need improving ?</p>
+  <label for  ="Improvement"> Home </label>
+  <input type ="checkbox" name ="Improvement" value = "Home"> 
+  
+  <label for  ="Improvement"> About </label>
+  <input type ="checkbox" name ="Improvement" value = "About"> 
+  
+  <label for  ="Improvement"> Contact</label>
+  <input type ="checkbox" name ="Improvement" value = "Contact"> 
+<!--   Further Comments -->
+    <br />
+ 
+
+  
+    <p>Comments</p>  
+    <textarea placeholder ="Further Comments..."></textarea>
+   </section>
+<!--  Submit -->
+    <br >
+    
+ <footer>
+   <input id ="submit" type ="submit"  disabled/>
+  </footer>
+    
+</form>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

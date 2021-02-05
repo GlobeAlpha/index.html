@@ -38,7 +38,13 @@ width: 100vw;
     position: relative;
     width:75px;
     height:55px;
+
+    /*  this code allows changing of svg colors bit complicate butfilter: invert(42%) sepia(97%) saturate(12%) hue-rotate(87deg) brightness(48%) contrast(119%);
 }
+ */
+}
+
+
 
 #Work_Link
 {
@@ -60,38 +66,22 @@ nav
     position: relative;
 }
 
-/* About Modal */
-#About
-{
-color:#ff3300;   
 
-}
-
-#about
-{
- font-size:20px;
- color:black;
-
-}
 
 /* Landing Site Desctiption */
 .Landing_Description
 { 
   position: relative; 
-  border: beige solid 1px;
+  /* border: beige solid 1px; */
   color:orange;
   padding: 30px;
   width: 364px;
   top: 174px;
-  left: 350px;
+  left: 403px;
+  background-color: rgba(0,0,0,0.3);
 }
 
-/* #Portfolio 
-{
- font-size:15px;
- padding: 10px;
- width: 100%;
- } */
+
  
 
 
@@ -111,12 +101,14 @@ font-weight: bold;
 {
   font-size:18px;
   background-color: aquamarine;
+ text-decoration: none;
 }
 
-.title
+.Project_Title a
 {
- color: #ff3300;
- font-size:30px;
+ color: #ff3300 !important ;
+ font-size:20px;
+ 
 }
 /* 
 @media all and ( min-width : 320px ){
@@ -133,14 +125,14 @@ font-size:25px;
 color:#ff3300;
 }
 
-#me
+/* #me
 {
   width:100px;
   height:100px;
   border-radius:50%;
   border-style:solid;
   border-color:black;
-}
+} */
 
 /* Contact Icons */
 .fa
@@ -199,11 +191,16 @@ color:#ff3300;
  /* color:yellow; */
 }
 
-a
+ nav a
 {
  text-align:center;
  color: black;
  text-decoration:none;
+}
+
+nav a:hover
+{
+  color:blue;
 }
 /*#Hirebtn
 {
@@ -228,14 +225,12 @@ a
   margin: 11px;
 }
 
-.Project_Title
+/* .Project_Title
 {
   background-color: beige;
   width: 300px;
-  position: relative;
-  left: 409px;
-  top: 10px;
-}
+
+} */
 
 
 .Tech_Types
@@ -256,34 +251,43 @@ a
 {
   position: relative;
   background-color: white;  
-  left: 414px;
+  left: 0px;
   width: 300px;
   height: auto;
    
 }
 
-
+.thumb
+{
+  width: 300px;
+    height: 200px;
+}
  .Box
 {
   display: none;
-  position: relative;
-  left: 1%;
-   right: 50%;
+  position:absolute;
+
    bottom: 107px;
+   width: 300px;
+    height: 200px;
    font-size:14px;
   color: black;
 } 
 
-.ImgContainer:hover .thumb
+.thumb:hover 
 {
-  opacity: 0.3;
+  
+  background-color:rgba(255,0,0,0.3);
+  
   
 }
 
 .ImgContainer:hover .Box 
 {
-  display: block;
-}
+  display: inline;
+  background-color: rgba(255,255,255,0.3);
+ 
+} 
 
 
 
@@ -291,6 +295,7 @@ a
 {
     left: 340px;
 }
+
 #Next
  {
     right: 340px;
@@ -301,13 +306,15 @@ a
     display: none;
 } */
 
-.Navbtn {
+.Navbtn 
+{
     font-size: 23px;
     position: absolute;
     top: 310px;
 }
 
-img.thumb {
+/* img.thumb 
+{
   width: 300px;
   height: 200px;
     border: 3px solid transparent;
@@ -315,52 +322,13 @@ img.thumb {
     border-left: 3px solid purple;
     border-bottom: 3px solid purple;
     border-right: 3px solid purple;*/
-    background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
+    /* background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
     background: -webkit-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
-    background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
+    background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% ); */
     /* align: center; */
-}
+} */
 
 /* Modal */
-#Dialogbox
-{
-    color:black;
-}
-.modalDialog 
-{
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 99999;
-    opacity: 0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-
-    .modalDialog:target {
-        opacity: 1;
-        pointer-events: auto;
-    }
-
-    .modalDialog > div {
-        width: 400px;
-        position: relative;
-        margin: 10% auto;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
-        background: -moz-linear-gradient(purple, yellow);
-        background: -webkit-linear-gradient(purple, yellow);
-        background: -o-linear-gradient(purple, yellow);
-        color:black;
-
-    }
 
 
 
