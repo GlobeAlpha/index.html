@@ -194,7 +194,7 @@ color:#ff3300;
  nav a
 {
  text-align:center;
- color: black;
+ color: black !important;
  text-decoration:none;
 }
 
