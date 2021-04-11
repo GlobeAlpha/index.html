@@ -1,7 +1,26 @@
 #Work
 {
     position: relative;
-    top: 354px;
+    top: 204px;
+    left:100px;
+  
+}
+
+img
+{
+    width: 300px;
+    height: 200px;
+}
+
+.Work_Gallery
+
+{
+   
+    /* grid  container properties */
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,300px);
+    grid-gap:50px;
 }
 
 /* .ImgContainer #tech_tag 
@@ -22,116 +41,4 @@ h3
 {
     font-size:20px;
     display: inline;
-}
-
-/* #Tribute
-{
-  position: relative;
-  right:321px;
-  width: 100%;
-} */
-
-.LX 
-{
-    position: relative;
-    right: 392px;
-    bottom: 857px;
-    width: 300px;
-    height: 200px;
-}
-
-.Twine
-{
-    position: relative;
-    left: 3px;
-    bottom: 1105px;
-    width: 300px;
-    height: 200px;
-}
-
-.Payment_Form
-{
-    position: relative;
-    left: 358px;
-    bottom: 221px;
-    width: 300px;
-    height: 200px;
-}
-
-
-.Feedback_Form
-{
-    position: relative;
-    right: 337px;
-    bottom: 376px;
-    width: 300px;
-    height: 200px;
-}
-
-.Neon_Light
-{
-    position: relative;
-    left: 214px;
-    bottom: 88px;
-    width: 300px;
-    height: 200px;
-}
-
-
-.Wikipedia_Viewer
-{
-    position: relative;
-    left: 783px;
-    bottom: 1301px;
-    width: 300px;
-    height: 200px;
-}
-
-
-.Random_Quote_Generator
-{
-    position: relative;
-    left: 78px;
-    bottom: 807px;
-    width: 300px;
-    height: 200px;
-}
-
-
-
-.JS_Calculator
-{
-    position: relative;
-    bottom: 1286px;
-    left: 782px;
-    width: 300px;
-    height: 200px;
-}
-
-.Pomodoro_Clock
-{
-    position: relative;
-    bottom: 1530px;
-    left: 428px;
-    width: 300px;
-    height: 200px;
-}
-
-.Tic_Tac_Toe
-{
-    position: relative;
-    bottom: 1544px;
-    left: 76px;
-    width: 300px;
-    height: 200px;
-}
-
-.ToDO
-
-{
-    position: relative;
-    bottom: 1805px;
-    left: 425px;
-    width: 300px;
-    height: 200px;
 }
