@@ -8,7 +8,6 @@
 html
 {
   height: 100vh;
-  
 }
 
 body
@@ -21,8 +20,6 @@ background-position: center center;
 background-size: cover;
 font-size:12px; 
 width: 100vw;
-
-  
 }
 
 #Background 
@@ -66,8 +63,6 @@ nav
     position: relative;
 }
 
-
-
 /* Landing Site Desctiption */
 .Landing_Description
 { 
@@ -81,8 +76,6 @@ nav
   background-color: rgba(0,0,0,0.3);
 }
 
-
- 
 
 
 #portfolio
@@ -259,8 +252,8 @@ nav a:hover
 
 .thumb
 {
-  width: 300px;
-    height: 200px;
+  /* width: 300px; */
+  /* height: 200px; */
 }
  .Box
 {
@@ -274,19 +267,18 @@ nav a:hover
   color: black;
 } 
 
-.thumb:hover 
+/* .thumb:hover 
 {
   
   background-color:rgba(255,0,0,0.3);
   
-  
-}
+} */
 
-.ImgContainer:hover .Box 
+/* .ImgContainer:hover .Box 
 {
   display: inline;
   background-color: rgba(255,255,255,0.3);
- 
+  
 } 
 
 
@@ -313,7 +305,7 @@ nav a:hover
     top: 310px;
 }
 
-/* img.thumb 
+ /* img.thumb 
 {
   width: 300px;
   height: 200px;
@@ -326,7 +318,7 @@ nav a:hover
     background: -webkit-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
     background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% ); */
     /* align: center; */
-} */
+/* }   */
 
 /* Modal */
 
