@@ -1,16 +1,38 @@
 #Work
 {
     position: relative;
-    top: 204px;
-    left:100px;
-  
+    top: 135px;
+    left: 42px;
 }
 
-img
+.Project_Listing ,img
 {
+    position:relative;
     width: 300px;
     height: 200px;
+    /* top: inherit; */
 }
+
+
+.Project_Listing:hover .Description
+{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    /* left: 50%; */
+    /* top: 50%; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity:1;
+}
+
+.Description
+{
+    opacity: 0;
+}
+
 
 .Work_Gallery
 

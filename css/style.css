@@ -1,7 +1,7 @@
 
 *
 {
-  padding:0 ;
+  padding:0;
   margin: 0;
 }
 
@@ -11,21 +11,28 @@ html
 }
 
 body
-{  
+{
   font-family:'Aharoni';
-  
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center center;
-background-size: cover;
-font-size:12px; 
-width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-size:12px;
+  width: 100%;
 }
 
 #Background 
 {
   background-color:beige;
-  padding: 11px;
+  /* padding: 10px; */
+  width: 1131px;
+  /* overflow: visible; */
+  /* display: block; */
+  /* float: left; */
+  /* margin: 0 0 1em 0; */
+  /* padding: 0; */
+  /* padding-left: 62px; */
+  /* position: static; */
 }
 
 .Logo
@@ -51,8 +58,8 @@ width: 100vw;
 nav
 {
   float: right;
-    left: -13px;
-    position: relative;
+  left: -101px;
+  position: relative;
 }
 
 /* Contact */
@@ -173,15 +180,15 @@ color:#ff3300;
 .button
 {
   border-radius: 14px;
- position: relative;
- right: 309px; 
- border:solid 2px;
- /* padding: 8px;
+  position: relative;
+  right: 10px;
+  border:solid 2px;
+  /* padding: 8px;
  margin:7px ;  */
- background: inherit;
- border-color: white;
- text-decoration: none;
- /* color:yellow; */
+  background: inherit;
+  border-color: white;
+  text-decoration: none;
+  /* color:yellow; */
 }
 
  nav a
@@ -243,11 +250,12 @@ nav a:hover
 .Description
 {
   position: relative;
-  background-color: white;  
-  left: 0px;
-  width: 300px;
-  height: auto;
-   
+  background-color: white;
+  /* left: 0px; */
+  /* width: 300px; */
+  /* height: auto; */
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .thumb
