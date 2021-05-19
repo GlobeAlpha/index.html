@@ -17,6 +17,8 @@ body
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  background-position: 50% 50%;
+  background-position: right;
   font-size:12px;
   width: 100%;
 }
@@ -138,13 +140,15 @@ font-weight: bold;
 
 .About_Section
 {
-  font-size: 25px;
-  color: goldenrod;
+  font-size: 16px;
+
   z-index: 3;
   font-family: cursive;
-  /* color: darkmagenta; */
-  font-weight: 900;
-  /* text-decoration: none; */
+
+  color: mintcream;
+ 
+  text-shadow: 0px 0px 5px black;
+
 }
 
 
@@ -152,7 +156,8 @@ details[open] summary
 {
   
   font-size: 16px;
-  color: goldenrod;
+  color: mintcream;
+  
 }
 
 
@@ -162,8 +167,15 @@ details summary::before
   /* background-color:blue; */
   font-size: 16px;
   color: goldenrod;
+  text-shadow: 0px 0px 0px;
 }
 
+
+.SectionTitle
+{
+  font-size: 27px;
+  color: white;
+}
 
 .About_Title
 {

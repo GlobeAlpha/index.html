@@ -1,0 +1,119 @@
+About Me Section 
+
+
+Goal 
+
+Introduce me
+
+Requirments 
+
+
+Anchor - Summary of my interest in front end 
+
+My journey 
+
+
+Call to action
+
+
+Contraints 
+
+
+
+
+
+
+
+story 
+
+
+
+
+Intro
+I am Maciek,front end develeoper,part nerd part night owl and very dedicated student of dark arts aka coding ;)
+
+My life long passion has always been making video games  much like my childhood classics such as Disney's Alladin!
+
+Whilst Front End develeopment isn't muy ulimate goal despite how difficult it can be I enjoy not only seeing my creations come to life but also help customer reach their destination...
+
+- Passion reignted 🔥
+Ever since  i was a young kid playing mario Bros in my neighours house I dreamt of making my own games...
+
+One day in 2012,that desire which laid dormant all way through my school years was awoken when I started IT L2.
+
+
+Quality of the course was lacking so I went in search for a solution in the library and I found it quicly in form of Head First 'Html/Css'
+
+
+This book saved my skin as I learned enough about Html/Css to complete my website assigment and portfolio.
+
+
+My studies of dark arts of coding didn't stop there between my college studies I research many things related however I stumbled upon C++  which was something I though would allow me to persue my dream.  
+ 
+
+This encounter  with dark arts has left me  with thirsty for more knowledge...
+
+
+
+
+- Dedicated student 🎓
+After getting taste of the dark arts in college in '13 I decided to continue my studies by lloking for more meterial about C++ suitable for begginers. 
+
+
+
+Eventually I found "C++ in Easy Steps" by Mike Mcgrath hoowever I had to wait to get until I got my Christmas money.
+
+To my dismay I coulddn't find  information  about handling events scuh keyboard press I needed to start developing games using C++  whihc led me to taking a break from learning to code.
+
+
+
+Until I found freeCodeCamp in '16 where I finally overcame my fear of js by gradual exposure. 
+
+
+Deeper I got I realised unlike C++ event handling in JavaScript is built in and relatively easy to understand.
+
+
+This wasn't without its challenges as at the time my laptop broke so my learning time was limited to local library PC's or borrwing a PC.
+
+
+I maneged to get money together for a tablet  and typing accessories later on, this helped a bit however writing any code is quite tricky with a tablet. 
+
+
+
+After 2 years of setbacks and constant challenges I managed to complete Front End Certification on freeCodeCamp with help of youtube.
+
+
+- Code Operative
+
+
+
+During Late Spring 2018 and early summer I was attending a lot meetups,jobs fairs etc in attempt to find a  my 1st Front End role. 
+
+At 1 point I was approached  by 1 of the guys John Evans  who ran Tech4Good at the time invited me to help him found a freelance tech network 'Fractal tech Network'  with another guy Nick W.
+
+Over next 5 months me,John and Nick  would meet with consultants hired by the council Bob and Rachel discussing our busssiness plan etc 
+
+In the end we decided name to be Code Operative as Nick W thought about similar idea whilst working as developer 10 years before and to use Copperative  bussines model.
+
+Being part of Coperative meant that each member is the owner of the company therefore we all take part in daily operations of the company as well  making decisions such as  our bylaws.
+
+
+Over 3 year period I have formalised our vision, organised meeting including social outings etc however running a company even with 8+ people  and working on contracts has proven to quite difficult.
+
+As a result of this difficulty my self learning therefore my career progression has stalled in last 6 months alonehowever it isn't all negative as I have learned tremendous amount  whihc will help with my future prospects.
+
+
+   
+
+
+
+- What Crystal Ball sees... 🔮
+Once  my career becomes less hectic I am looking to develop several clones of classic video games using Front End tech such as Canvas which I am hoping will start a portfolio of work and teach me basics of game dev.
+
+This over course of next couple of years if not 10 years will allow my web career to progress to the point where I am able to write my own games uaing Unreal or Unity helping me to achieve my dream of developing games.
+
+
+And as I can see current market has forgotten what makes video games what they were in the 90's,I thinking of bringing back : Plot!
+
+
+Thank you for reading my story  so far and contact me throught LinkedIn listed in my contact page  to help me write rest my story!
