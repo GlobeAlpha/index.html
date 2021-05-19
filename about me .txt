@@ -1,0 +1,85 @@
+About Me Section 
+
+
+Goal 
+
+Introduce me
+
+Requirments 
+
+
+Anchor - Summary of my interest in front end 
+
+My journey 
+
+
+Call to action
+
+
+Contraints 
+
+
+
+
+
+
+
+story 
+
+
+
+
+Intro
+I am Maciek,front end develeoper,part nerd part night owl and very dedicated student of dark arts aka coding ;)
+
+My life long passion has always been making video games  much like my childhood classics such as Disney's Alladin or 
+- Passion reignted 🔥
+My passion for all things computer didn't die I reignted the flame in '12 when I started my IT l2 course
+
+I got to say I was expecting bit more coding in this course however we barely learned basics of HTML/CSS.
+
+
+This meant that if i wanted to complete my coursework I needed to learn more.
+
+Once upon a time i went to Library to find a book the html ,low and behold I found it in form of Head First 'HTML/CSS'.
+
+
+After this find I decided I am going to complete as many exercises as I possibly could, which allowed me to complete my webssite assigment.
+
+
+- Dedicated student 🎓
+After leaving College in 2013 I decided to continue studying coding as I left College unsatified what I have learned
+
+I bought a couple of books most notable of whihc was "C++ in Easy Steps" by Mike Mcgrath which I bought with my Christmas money.
+
+
+Somewhere alogn the line I realised that learning C++ wasn't the best option for me as to my knowledge ahdnling events wasn't as straight forward
+
+
+Eventually I found freeCodeCamp a plaform whihc simplified learning to code by making completly free and as it was a open soource project anyone could contribute.
+
+1 thing realised as I learned js is that handling events in js was very easy compared to C++ which encorured me to learn more .
+
+
+Despite my previous exposure to Html/Css I struggled intially with js especially considering I didn't have a functioning laptop
+
+
+Eventually when I got enough money together I got a tablet however it wasn't the same as coding with laptop and even access that i had in library or borrwing a machine limited my abillity to learn.
+
+
+After 2 years of setbacks and constant challenges I manaeged to complete Front End Certification on freeCodeCamp with help of youtube.
+
+
+- Code Operative
+During Late Spring 2018 and early summer I was attending a lot meetups
+
+In course of those months I have met John Evans who around June 2018 asked me if i wanted start a tech freelancers network with him.
+
+
+This lead to me,John and Nick spending next several months developing our bussiness plan.
+
+
+- What Crystal Ball sees... 🔮
+In Next 10 years I want to work in Game Industry in some shape/form.
+
+Maybe starting my own studio who knows wher wind takes me.
