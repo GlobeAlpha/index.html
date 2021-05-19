@@ -7,7 +7,7 @@
 
 html
 {
-  height: 100vh;
+  height: 806px;
 }
 
 body
@@ -26,6 +26,7 @@ body
   background-color:beige;
   /* padding: 10px; */
   width: 1131px;
+  height: 89px;
   /* overflow: visible; */
   /* display: block; */
   /* float: left; */
@@ -58,7 +59,7 @@ body
 nav
 {
   float: right;
-  left: -101px;
+  /* left: -101px; */
   position: relative;
 }
 
@@ -70,17 +71,55 @@ nav
     position: relative;
 }
 
+
+
+/* .tooltip
+{
+visibility: hidden;
+}
+
+  .tooltip:hover
+{
+  
+  visibility: visible;
+
+} */
+
+.Owl
+{
+  width: 200px;
+  clip-path: ellipse(48% 237% at 6% 48%);
+  position: relative;
+  top: 47px;
+  border-radius: 100px 100px;
+  height: 200px;  
+}
+
+.Owl2
+{
+    left: 19px;
+    top: -158px;
+    width: 200px;
+    clip-path: ellipse(47% 257% at 89% 58%);
+    position: relative;
+    border-radius: 100px 100px;
+    height: 200px;
+}
+
+
 /* Landing Site Desctiption */
 .Landing_Description
-{ 
-  position: relative; 
+{
+  position: absolute;
   /* border: beige solid 1px; */
   color:orange;
-  padding: 30px;
-  width: 364px;
-  top: 174px;
-  left: 403px;
-  background-color: rgba(0,0,0,0.3);
+  padding: 44px;
+  /* margin: 89px; */
+  width: 400px;
+  height: 228px;
+  top: 293px;
+  left: 328px;
+  background-color: rgba(0,0,0,0.85);
 }
 
 
@@ -91,19 +130,49 @@ nav
  
 }
 
-.Story_Headers
+/* .Story_Headers
 {
 font-size : 20px;
 font-weight: bold;
-}
+} */
 
 .About_Section
 {
-  font-size:18px;
-  background-color: aquamarine;
- text-decoration: none;
+  font-size: 25px;
+  color: gold;
+  z-index: 3;
+  font-family: cursive;
+  /* color: darkmagenta; */
+  font-weight: 900;
+  /* text-decoration: none; */
 }
 
+
+details[open] summary
+{
+  
+  font-size: 16px;
+  color: goldenrod;
+}
+
+
+details summary::before
+{
+  
+  /* background-color:blue; */
+  font-size: 16px;
+  color: goldenrod;
+}
+
+
+.About_Title
+{
+  font-size: 36px;
+    color: beige;
+    float: right;
+    position: relative;
+    left: -375px;
+}
 .Project_Title a
 {
  color: #ff3300 !important ;
@@ -258,11 +327,11 @@ nav a:hover
   /* width: 100%; */
 }
 
-.thumb
+/* .thumb
 {
   /* width: 300px; */
   /* height: 200px; */
-}
+/* }  */
  .Box
 {
   display: none;
