@@ -1,12 +1,35 @@
-//access value of radio  button
+
+html       
+       <label class ="Project_Type">  Commercial <input type ="radio" name = "Project_Type"  id = "Commercial"  onclick ="Project_Type()" value = "Commercial"> </label>
+       <label class ="Project_Type"> Personal <input type ="radio" name = "Project_Type" id = "Personal"   onclick ="Project_Type()"  value = "Personal"> </label>
+       
+       <select class = "Tech_Types" id = "Tech_Types"   onclick="TechType()">
+           <option value = "default">Which tech are looking for ?</option> 
+          <option value = "Html/Css" id = "HTML/CSS"  onchange =   > Html/Css </option>
+           <option value = "Javascript" id = "JS"    onchange =  >Javascript</option>
+           <option value = "React" id = "React"   onchange =  >React</option>
+       </select> 
+
+
+js
+
+
+
+
+   //access value of radio  button
 var ProjectCommercial = document.getElementById('Commercial');
 var ProjectPersonal = document.getElementById('Personal');
 //access value of select  
+
+
+
+
 
 Project_Type = () =>
 {
     if (ProjectCommercial.checked == true)
     {
+
         if (ProjectCommercial.value = "Commercial")
         {
             var Personal = document.getElementById("Personal")
@@ -14,6 +37,7 @@ Project_Type = () =>
            
             Personal.style.display = "none"
             Commercial.style.display = "block"
+        
         }
     }
 
@@ -26,13 +50,17 @@ Project_Type = () =>
        
         Personal.style.display = "none"
         Commercial.style.display = "block"
+      
             // console.log(Commerrcial)
         }
-    }    
+    }
+  
+    
 }
 
 TechType = () =>
 {
+
     var Tech_Type_Dropdown = document.getElementById("Tech_Types")
     console.log(Tech_Type_Dropdown)
     //  acesses  both selected Index 
@@ -42,6 +70,7 @@ TechType = () =>
     var JS_Option = document.getElementById("JS").value
     var React_Option  = document.getElementById("React").value
     
+    
     // var  Tech_Types = document.getElementsByClassName()
 
     if (Options == JS_Option)
@@ -50,6 +79,7 @@ TechType = () =>
         var Tech_Tag = document.getElementById("tech_tag");
         TechTag = Tech_Tag.style.background = "blue"
         Tech_Tag.textContent ="JS"
+
         // console.log(`${JS_Option} option has been selected`)
         }
 
@@ -71,3 +101,6 @@ TechType = () =>
  ///  display tech types based on  tech tags 
     //  place an invisible element which has the tech type 
 }
+
+
+
