@@ -14,6 +14,20 @@
 }
 
 
+button.fa.fa-eye 
+{
+    position: absolute;
+    left: 126px;
+    border: solid 1px black;
+    bottom: -6px;
+}
+
+
+.fa-eye:hover
+{
+   color: blue;
+}
+
 .Project_Listing:hover .Description
 {
     position: absolute;
