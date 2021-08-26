@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html >
 
-<head>
-  
-        <meta charset="UTF-8">
-        <title>Portfolio</title>
-        <meta name="viewport" content="width=device-width,height=device-height user-scalable=yes, initial-scale=1, minimum-scale=1.0">
-        
-        <!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'> -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/Work.css">
-        <link rel="stylesheet" href="css/style.css">
-        
-</head>
+        <head> 
+                <meta charset="UTF-8">
+                <title>Portfolio</title>
+                <meta name="viewport" content="width=device-width,height=device-height user-scalable=yes, initial-scale=1, minimum-scale=1.0">  
+                <!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'> -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="css/Work.css">
+                <link rel="stylesheet" href="css/style.css">  
+        </head>
  
 
 <body style="background-image: url(./images/bg.jpeg)" > <!--Wallhaven-26899.jpg-->
@@ -22,9 +19,9 @@
             <a href="index.html"><img class="Logo" src="./images/MaciekLogo.svg" style="left: 14px; top: -3px;"></a>
             
             <nav>
+                <a id="Work_Link" href="Work.html"><i class="fa fa-briefcase"></i></a>
                 <a href="About.html"><i class="fa fa-user"></i></a>
                 <a id = "Contact"  href = "Contact.html"><i class=" fa fa-phone"></i></a>
-                <a id="Work_Link" href="Work.html"><i class="fa fa-briefcase"></i></a>
             </nav>
 
             <div style="text-align:left"> <!--<button id="Hirebtn">Avaiable for Hire</button>--></div>
@@ -33,18 +30,9 @@
             
             </div>
 
-<!--  TODO: Restructure class and id names so there is no clashes -->
-<!--         
-       <label class ="Project_Type">  Commercial <input type ="radio" name = "Project_Type"  id = "Commercial"  onclick ="Project_Type()" value = "Commercial"> </label>
-       <label class ="Project_Type"> Personal <input type ="radio" name = "Project_Type" id = "Personal"   onclick ="Project_Type()"  value = "Personal"> </label>
-       
-       <select class = "Tech_Types" id = "Tech_Types"   onclick="TechType()">
-           <option value = "default">Which tech are looking for ?</option> 
-          <option value = "Html/Css" id = "HTML/CSS"  onchange =   > Html/Css </option>
-           <option value = "Javascript" id = "JS"    onchange =  >Javascript</option>
-           <option value = "React" id = "React"   onchange =  >React</option>
-       </select> -->
        <header style="position: relative;top: 64px;">
+        <p>Disclaimer: Due to commercial nature of some these products I can't demo or show any code I have created as part  any  commercial of the project </p>
+             <br />
                 <h1 id="portfolio" style="font-size: 23px;">Work&nbsp;</h1>
                 <p style="position: relative;left: 16px;top: 19px;font-size: 19px;">For demostration  of my skills click on  Projects and remember because of commercial nature of Land Explorer and Twine it will  be just html page with screen shoots </p>
        </header>
@@ -52,7 +40,7 @@
 
          
     <div id="Work" >
-         
+        <!--  Disclaimer modal  -->
 
             <main class ="Work_Gallery">
 
@@ -102,7 +90,7 @@
                     </div>
 
                         <div class ="Project_Listing">
-                            <img src="Projects/Twine/Twine_ViewLog.png" alt="Volunteer_Log_Modal">
+                            <img src="Projects/Twine/images/Twine_ViewLog.png" alt="Volunteer_Log_Modal">
 
                             <div class= "Description" >
                                 <p> Description </p>
