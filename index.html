@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html >
 <head>
-  
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <meta name="viewport" content="width=device-width,height=device-height user-scalable=yes, initial-scale=1, minimum-scale=1.0">
@@ -13,47 +12,52 @@
 </head>
  
 
-<body style="background-image: url(./images/DarkForest.jpg)" > 
+<body style="background-image: url(./images/DarkForest.jpg);overflow-x: hidden;" > 
     <main>
         <div id="Background">
        
-            <a href ="index.html"><img class = "Logo" src="images/MaciekLogo.svg"></a>
+            <img class = "Logo" src="./images/MaciekLogo.svg">
+
+            <button class="Blog_link-button"><a href="https://globealpha.github.io/DevUpdates-Blog/">Dev Updates Blog </a></button>
+                <nav class="Menu">
+                    <a href="About.html"><i class = "fa fa-user"> About</i>
+                    <a  id = "Contact" href="Contact.html"><i class = "fa fa-phone"> Contact</i></a>
+                    <a  id ="Work_Link" href="Work.html"><i class = "fa fa-briefcase">Work</i></a>
+                </nav>
+          
+
+            <div class ="HamBurger">
+                <input type="checkbox" name="menu" id="HamBurger_Menu" class="Dropdown_Menu" >
+                <nav class="Menu">
+                    <a href="About.html"><i class = "fa fa-user"> About</i>
+                    <a  id = "Contact" href="Contact.html"><i class = "fa fa-phone"> Contact</i></a>
+                    <a  id ="Work_Link" href="Work.html"><i class = "fa fa-briefcase">Work</i></a>
+                   </nav>
+
+                <label for="HamBurger_Menu" >
+                 <span id="MenuIcon">&#9776</span>
+                </label>
+       
+            </div>
             
-            <nav>
-               <a href="About.html"><i class = "fa fa-user"> About</i>
-               <a  id = "Contact" href="Contact.html"><i class = "fa fa-phone"> Contact</i></a>
-               <a  id ="Work_Link" href="Work.html"><i class = "fa fa-briefcase">Work</i></a>
-              </nav>
 
 
         </main>
 
         <section class="Landing_Description">
-          <!-- <div class ="tooltip">
-          This is a tooltip!  
-          </div> -->
-                <figure style="position: relative;left: 100px;top: -67px;">
+                <figure  class ="Owler">
                    <img class="Owl" src="images/Maciek.jpg" alt="Owler">
                   <img class="Owl2" src="images/owllogo.jpg" alt="Owler2">
-                  <h1 style="position: absolute; top: 274px;left: -19px;">Front End Developer/Night Owl</h1>
+                  <h1 class="Owler_subtitle">Front End Developer/Night Owl</h1>
                 </figure>
-                      
         </section>
        
-
-     
         <br />
         <br />
         <br />
-        <!-- <footer>
-       
-            <a href="https://uk.linkedin.com/in/maciek-bajda-a198709b" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="https://www.freecodecamp.com/globealpha" target="_blank"><i class="fa fa-free-code-camp"></i></a>
-            <a href="https://www.github.com/globealpha" target="_blank"><i class="fa fa-github"></i></a>
-
-        </footer> -->
+        
         <footer style ="background-color: brown; width: 100%;height: 100px; position: relative;top: 575px;">
-          <div class = "Contact-Icons"  style="position: relative; left: 471px;top:15px;display: flex;">
+          <div class = "Contact-Icons">
                  
               <div style="position: relative;left: -25px;">
                   <a href="https://uk.linkedin.com/in/maciek-bajda-a198709b" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -61,9 +65,7 @@
               </div>
               
               
-                  <div style="position: relative;
-                  left: 36px;
-                  top: 0px;">
+                  <div style="position: relative;left: 36px;top: 0px;">
                       <a href="https://www.freecodecamp.com/globealpha" target="_blank"><i class="fa fa-free-code-camp"></i></a>
                       <p style="font-size: 12px;position:absolute; left: -9px;">FreeCodeCamp</p> 
                   </div>
@@ -72,17 +74,15 @@
                       <a href="https://www.github.com/globealpha" target="_blank"><i class="fa fa-github"></i></a>
                       <p style="font-size: 12px;position:absolute;top: 64px;left: 5px;">GitHub</p> 
                   </div>
-                  
-                        
+
               </div>
-              
-             
+
         </div>
   
          </footer>
 
-        <script src="C:\Users\macie\OneDrive\Documents\Projects Web\portfolio\portfolio\js\jQuery.js"defer></script>
-        <script src="js/Slideshow.js"  defer></script>
+        <!-- <script src="C:\Users\macie\OneDrive\Documents\Projects Web\portfolio\portfolio\js\jQuery.js"defer></script> -->
+        <!-- <script src="js/Slideshow.js"  defer></script> -->
         <!--https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js-->
     </div>
    

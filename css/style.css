@@ -1,433 +1,106 @@
+@import  'socials.css';
+@import 'navigation.css';
+@import 'HamBurger_Menu.css';
+@import 'media_queries.css';
 
-*
-{
-  padding:0;
-  margin: 0; */
+* {
+  padding: 0;
+  margin: 0;
 }
 
-html
-{
+html {
   height: 806px;
 }
 
-
-
-body
+body 
 {
-  font-family:'Aharoni';
+  font-family: 'Aharoni';
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   background-position: 50% 50%;
   background-position: right;
-  font-size:12px;
+  font-size: 12px;
   width: 100%;
 }
 
-#Background 
+
+.Landing_Description 
 {
-  background-color:beige;
-  /* padding: 10px; */
-  width: 100%;
-  height: 89px;
-  /* overflow: visible; */
-  /* display: block; */
-  /* float: left; */
-  /* margin: 0 0 1em 0; */
-  /* padding: 0; */
-  /* padding-left: 62px; */
-  /* position: static; */
-}
-
-.Logo
-{
-    right: -14px;
-    top: 7px;
-    position: relative;
-    width:75px;
-    height:55px;
-
-    /*  this code allows changing of svg colors bit complicate butfilter: invert(42%) sepia(97%) saturate(12%) hue-rotate(87deg) brightness(48%) contrast(119%);
-}
- */
-}
-
-
-
-#Work_Link
-{
-  float:right;
-}
-
-nav
-{
-  float: right;
-  left: 0px;
   position: relative;
+  border: beige solid 1px;
+  color: orange;
+  padding: 44px;
+  width: 463px;
+  height: 278px;
+  top: 166px;
+  left: 190px;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
-/* Contact */
-.Socials
+.Owl 
 {
-    float: right;
-    left: -13px;
-    position: relative;
+
+height: 184px;
+
+clip-path: ellipse(48% 237% at 6% 48%);
+
+position: relative;
+
+top: 139px;
+
+left: 288px;
+
+border-radius: 100px 100px;
+
+width: 180px;
 }
 
-
-
-/* .tooltip
+.Owl2 
 {
-visibility: hidden;
-}
-
-  .tooltip:hover
-{
-  
-  visibility: visible;
-
-} */
-
-.Owl
-{
-  width: 200px;
-  clip-path: ellipse(48% 237% at 6% 48%);
+  left: 122px;
+  top: 139px;
+  width: 180px;
+  clip-path: ellipse(47% 257% at 89% 58%);
   position: relative;
-  top: 47px;
   border-radius: 100px 100px;
-  height: 200px;  
+  height: 184px;
 }
 
-.Owl2
-{
-    left: 19px;
-    top: -158px;
-    width: 200px;
-    clip-path: ellipse(47% 257% at 89% 58%);
-    position: relative;
-    border-radius: 100px 100px;
-    height: 200px;
-}
-
-
-/* Landing Site Desctiption */
-.Landing_Description
+.Owler
 {
   position: absolute;
-  /* border: beige solid 1px; */
-  color:orange;
-  padding: 44px;
-  /* margin: 89px; */
-  width: 400px;
-  height: 228px;
-  top: 160px;
-  left: 328px;
-  background-color: rgba(0,0,0,0.85);
+  left: -107px;
+  top: -87px;
 }
 
-
-
-#portfolio
+.Owler_subtitle
 {
- color: aliceblue;
-}
-
-/* .Story_Headers
-{
-font-size : 20px;
-font-weight: bold;
-} */
-
-.About_Section
-{
-  font-size: 16px;
-
-  z-index: 3;
-  font-family: cursive;
-
-  color: mintcream;
- 
-  text-shadow: 0px 0px 5px black;
-
-}
-
-
-details[open] summary
-{
-  
-  font-size: 16px;
-  color: mintcream;
-  
-}
-
-
-details summary::before
-{
-  
-  /* background-color:blue; */
-  font-size: 16px;
-  color: goldenrod;
-  text-shadow: 0px 0px 0px;
-}
-
-
-.SectionTitle
-{
-  font-size: 27px;
-  color: white;
-}
-
-.About_Title
-{
-  font-size: 36px;
-    color: beige;
-    float: right;
-    position: relative;
-    left: -375px;
-}
-.Project_Title a
-{
- color: #ff3300 !important ;
- font-size:20px;
- 
-}
-/* 
-@media all and ( min-width : 320px ){
-#Background
-{
-
-}
-} */
-
-main
-{
-font-size:25px;
-
-color:#ff3300;
-}
-
-/* #me
-{
-  width:100px;
-  height:100px;
-  border-radius:50%;
-  border-style:solid;
-  border-color:black;
-} */
-
-/* Contact Icons */
-.fa
-{
-  padding: 14px;
-  font-size:14px;
-  border-radius: 50%;
-  border-color:white;
-  border: 5px;
-  text-align:left;
-  text-decoration: none;
-  margin: 10px 2px;
-}
-
-.fa-facebook
-{
-  background: #3B5998;  
-  color: white;
-}
-
-.fa-twitter
-{
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-linkedin
-{ 
-  background: #007bb5;
-  color: white;
-}
-
-.fa-free-code-camp
-{
-  background: green;
-  color:white;
-} 
-
-.fa-github
-{
-  background-color: black;
-  color: white;
-}
-
-.button
-{
-  border-radius: 14px;
-  position: relative;
-  right: 10px;
-  border:solid 2px;
-  /* padding: 8px;
- margin:7px ;  */
-  background: inherit;
-  border-color: white;
-  text-decoration: none;
-  /* color:yellow; */
-}
-
- nav a
-{
- /* text-align:center; */
- color: black !important;
- text-decoration:none;
-}
-
-nav a:hover
-{
-  color:blue;
-}
-/*#Hirebtn
-{
-  border-radius: 14px;
-  border:solid 2px;
-  padding: 8px;
-  margin:7px ;
-  background: inherit;
-  border-color: red;
-}*/
-
-.Headers
-{
-  color: red;
-}
-
-/* Projects- move to Work.css */
-.Project_Type
-{
-  position: relative;
-  top: 100px;
-  margin: 11px;
-}
-
-/* .Project_Title
-{
-  background-color: beige;
-  width: 300px;
-
-} */
-
-
-.Tech_Types
-{
-  position: relative;
-  top: 100px;
-  left:61px;
-}
-
-/* .ImgContainer 
-{
-    position: relative;     
-} */
-
-
-
-.Description
-{
-  position: relative;
-  background-color: white;
-  /* left: 0px; */
-  /* width: 300px; */
-  /* height: auto; */
-  /* height: 100%; */
-  /* width: 100%; */
-}
-
-/* .thumb
-{
-  /* width: 300px; */
-  /* height: 200px; */
-/* }  */
- .Box
-{
-  display: none;
-  position:absolute;
-
-   bottom: 107px;
-   width: 300px;
-    height: 200px;
-   font-size:14px;
-  color: black;
-} 
-
-/* .thumb:hover 
-{
-  
-  background-color:rgba(255,0,0,0.3);
-  
-} */
-
-/* .ImgContainer:hover .Box 
-{
-  display: inline;
-  background-color: rgba(255,255,255,0.3);
-  
-} 
-
-
-
-#Previous 
-{
-    left: 340px;
-}
-
-#Next
- {
-    right: 340px;
-}
-
-/* .ImgContainer:not(:first-child) 
-{
-    display: none;
-} */
-
-.Navbtn 
-{
-    font-size: 23px;
-    position: absolute;
-    top: 310px;
-}
-
- /* img.thumb 
-{
-  width: 300px;
-  height: 200px;
-    border: 3px solid transparent;
-    /*border-top: 3px solid purple;
-    border-left: 3px solid purple;
-    border-bottom: 3px solid purple;
-    border-right: 3px solid purple;*/
-    /* background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
-    background: -webkit-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% );
-    background: -o-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100% ); */
-    /* align: center; */
-/* }   */
-
-/* Modal */
-
-
-
-/* nav
-{ 
-  background-color:Black;
-  padding: 20px 20px ;
-  text-align:center;
   color: orange;
-  width: auto;
-  background-size: cover;
-  
+  position: relative;
+  left: 266px;
+  top: 169px;
 }
 
- nav a
+.Contact-Icons 
 {
-  text-decoration:none;
-  border:none;
-  color:white;
-} */
+  position: relative;
+  left: 357px;
+  top: 17px;
+  display: flex;
+}
+
+
+
+
+
+
+.Blog_link-button
+{
+  position: relative;
+  left: 119px;
+  padding: 10px;
+  border-radius: 21px;
+  background: white;
+}
