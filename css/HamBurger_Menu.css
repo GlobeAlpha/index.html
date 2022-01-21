@@ -1,0 +1,11 @@
+.Menu 
+{
+  float: right;
+  position: relative;
+  left: -9px;
+}
+
+.HamBurger
+ {
+  display: none;
+}

@@ -47,7 +47,7 @@ button.fa.fa-eye
 {
     opacity: 0;
 }
-
+    
 
 .Work_Gallery
 
@@ -79,3 +79,23 @@ h3
     font-size:20px;
     display: inline;
 }
+
+
+
+/* To add later 
+.Tech_Types 
+{
+  position: relative;
+  top: 100px;
+  left: 61px;
+}
+
+.Project_Type 
+{
+  position: relative;
+  top: 100px;
+  margin: 11px;
+}
+
+
+*/

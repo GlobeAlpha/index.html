@@ -1,0 +1,137 @@
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .LandingDescription {
+    position: relative;
+    height: 228px;
+    top: 216px;
+    left: -1px;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+
+  .Contact-Icons {
+    position: relative;
+    left: 303px;
+    top: 17px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 752px) and (max-width: 834px) {
+  .LandingDescription {
+    height: 28px !important;
+    width: 50px;
+    left: 0px;
+    display: none;
+  }
+
+  .Menu {
+    display: none;
+  }
+
+  .HamBurger {
+    display: block;
+    position: relative;
+    top: -56px;
+    left: 691px;
+    font-size: 50px;
+  }
+
+  input[type='checkbox'] {
+    display: none;
+  }
+
+  input[type='checkbox']:checked ~ .Menu {
+    width: 30px;
+    position: absolute;
+    display: block;
+    background-color: #007bb5;
+    width: 100px;
+    height: 200px;
+    z-index: 2;
+    float: none;
+    left: -39px;
+    top: 84px;
+  }
+
+  .Contact-Icons {
+    position: relative;
+    left: 153px;
+    top: 16px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .HamBurger {
+    display: block;
+    position: relative;
+    left: 276px;
+    top: -54px;
+    font-size: 34px;
+  }
+
+  #HamBurger_Menu {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #Background {
+    height: 60px;
+  }
+
+  input[type='checkbox']:checked ~ .Menu {
+    position: absolute;
+    display: block;
+    background-color: #007bb5;
+    width: 100px;
+    height: 200px;
+    z-index: 2;
+    float: right;
+    left: -47px;
+    top: 59px;
+  }
+
+  .Logo {
+    width: 50px;
+    height: 55px;
+  }
+
+  .LandingDescription {
+    top: 500px;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .Owl {
+    position: relative;
+    left: 0px;
+    height: 150px;
+    width: 141px;
+  }
+
+  .Owl2 {
+    height: 150px;
+    width: 141px;
+    top: 139px;
+    left: -130px;
+  }
+
+  .Owler {
+    top: 100px;
+    left: -60px;
+  }
+
+  footer {
+    top: 400px;
+  }
+
+  .Contact-Icons {
+    position: relative;
+    left: 41px;
+    top: 17px;
+    display: flex;
+  }
+}
