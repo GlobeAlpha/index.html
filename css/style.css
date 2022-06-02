@@ -3,6 +3,35 @@
 @import 'HamBurger_Menu.css';
 @import 'media_queries.css';
 
+
+/*
+classes :
+
+Header 
+ 
+.header
+.header--logo
+
+Body 
+
+Tabs
+.Navigation
+.Navigation—Tab
+.Navigation—Tab-active
+
+Footer 
+.footer
+.footer—sitemap_container
+.footer—sitemap_container_sm-icons
+.footer—sitemap_container_sm-icons_ LinkedIn
+.footer—sitemap_container_sm-icons_Github
+.footer—sitemap_container_sm-icons_freeCodeCamp
+
+
+
+*/
+
+
 * {
   padding: 0;
   margin: 0;
@@ -26,8 +55,16 @@ body
 }
 
 
-.Landing_Description 
+
+/* Card  */
+
+.ShowcaseCard
 {
+
+}
+
+.ShowcaseCard--front
+ {
   position: relative;
   border: beige solid 1px;
   color: orange;
@@ -37,7 +74,60 @@ body
   top: 166px;
   left: 190px;
   background-color: rgba(0, 0, 0, 0.85);
-}
+ }
+
+
+ /* .ShowcaseCard—front_display
+ {
+
+ } */
+
+
+
+/* 
+
+
+-	Glassmoprhic background giving the card appearance of a card made out of frosted glass.
+ 
+
+Front 
+   
+-	Owler Image
+.ShowCaseCard—front_OwlerContainer 
+o	Owler Image.
+o	Job Title.
+
+-	 Core Skills
+.ShowCaseCard—front_CoreSkillBadges
+.ShowCaseCard—front_CoreSkillBadges_js_badge
+.ShowCaseCard—front_CoreSkillBadges_react_badge
+-	Rotate button.
+.rotate—button
+.rotate—button_back
+.rotate—button_front
+.rotate—button_back:hover
+
+Back 
+.ShowcaseCard—back
+
+
+-	Projects Container
+.Showcase—case_Project_Container
+ .Showcase_Project_Container_LandExplorer
+.Showcase_Project_Container_Twine
+.Showcase_Project_Container_PaymentForm
+
+
+
+-	View More Work Button
+                   .Showcase—case_ViewMore-button
+-	Rotate button.
+.rotate—button_front:hover
+
+ */
+
+
+
 
 .Owl 
 {
